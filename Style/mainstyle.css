@@ -1,0 +1,225 @@
+body {
+    background-color:#FFFFFF;
+    font-family:Geneva,Arial,Helvetica,sans-serif;
+    margin: 60px auto 40px auto;/*上 右 下 左*/
+    max-width:1000px;
+    border:solid;
+    border-color:#FFFFFF;
+
+}
+
+.mainbody {
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 100px;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    background-color: darkgoldenrod;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    z-index: 1;
+}
+
+
+header {
+    background-color: darkblue;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display:block;
+    height: 150px;
+    line-height: 72px;
+    z-index: 100;
+}
+
+
+
+header
+h1#navigat {
+    text-align:left;
+    text-indent: 30px;
+    color: #FFFFFF;
+    font-size: 36px;
+    margin: 0px;
+}
+
+nav a:link{
+    font-size: 18px;
+    margin: 20px;
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+nav a:visited{
+    font-size: 18px;
+    margin: 20px;
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+body span.user{
+    position: fixed;
+    top: 6px;
+    height: 80px;
+    right: 30px;
+    color: #808040;
+    font-size: 24px;
+}
+a:link{
+    font-size: 18px;
+    margin: 20px;
+    text-decoration:none;
+    color: #6C6C6C;
+}
+
+
+div#imgs {
+    flex-flow: row;
+    margin-bottom: 100px;
+}
+
+
+footer {
+    background-color: #FFFFFF;
+    position: page;
+    margin: 0px 20px 0px 20px;
+    text-indent: 40px;
+    left: 0px;
+    bottom:0px;
+    font-size: 16px;
+}
+
+button#alerter {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+}
+button#refresher {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+button#picdetail {
+    position: fixed;
+    right: 50px;
+    bottom: 300px;
+}
+
+button {
+    color: #fff;
+    background-color: silver;
+    border-color: silver;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    cursor: pointer;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.65);
+    border-color: #d9d9d9;
+    z-index: initial;
+}
+
+span.dectitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div{
+    font-size: 10px;
+}
+
+a:hover{
+    background-color: lightpink;
+}
+
+
+#pages{
+    width:200px;
+    margin: 0 auto;
+}
+
+td:hover{color: lightskyblue}
+
+.topframe {
+    z-index: 100;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    background-color: darkgoldenrod;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#currentpage{
+    text-decoration: overline;
+}
+
+
+ul.imglist{
+    margin-bottom:100px;
+    overflow:hidden;
+    padding-bottom: 100px;
+}
+ul.imglist li.inline{ float: left; padding:10px 10px; height:300px}
+ul.imglist li img{ display:block; height: 80%; }
+
+li.inline{
+    z-index: initial;
+    list-style: none;
+}
+
+h3.cityname{
+    font-size: 24px;
+    margin: 0 0 0 0;
+}
